@@ -1,4 +1,3 @@
-Following python modules are required:
 requests
 rsa
 pymysql
