@@ -9,9 +9,9 @@ pip install -r requirements.txt
 mysql commands for server.py before running
 create database userdata;
 
-CREATE USER sankalp IDENTIFIED BY 123456;
+CREATE USER sparsh IDENTIFIED BY 123456;
 
-GRANT ALL PRIVILEGES ON userdata.* TO 'sankalp'@'localhost';
+GRANT ALL PRIVILEGES ON userdata.* TO 'sparsh'@'localhost';
 
 CREATE TABLE history (chat_id int, to_user varchar(255) NOT NULL, from_user varchar(255) NOT NULL, message varchar(10000));
 
